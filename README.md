@@ -1,4 +1,4 @@
-# 🌱 AI Climate Agent (India Edition)
+# 🌱 Carbon lens
 
 An intelligent, zero-friction, behavior-adaptive carbon footprint tracker actively tailored for the urban Indian context. This mobile-first React application ditches static guilt-tripping in favor of an **AI Agentive Feedback Loop** that tracks your routines, calculates precise local emissions, and deploys context-aware nudges.
 
