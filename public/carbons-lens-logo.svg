@@ -1,0 +1,70 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <title>CarbonMirror Logo</title>
+  <desc>CarbonMirror app logo - a circular leaf design with data tracking ring</desc>
+
+  <defs>
+    <linearGradient id="bgCircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#085041"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9FE1CB"/>
+      <stop offset="100%" stop-color="#5DCAA5"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#EAF3DE"/>
+      <stop offset="100%" stop-color="#C0DD97"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#085041"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background for export -->
+  <rect width="500" height="500" fill="white"/>
+
+  <!-- Main circle background -->
+  <circle cx="250" cy="210" r="155" fill="url(#bgCircle)"/>
+
+  <!-- Outer arc ring -->
+  <circle cx="250" cy="210" r="148" fill="none" stroke="#9FE1CB" stroke-width="5" stroke-opacity="0.35"/>
+
+  <!-- Arc progress ring -->
+  <path d="M250 62 A148 148 0 1 1 102 340" fill="none" stroke="url(#ringGrad)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Leaf shape -->
+  <path d="M250 120 C300 135 330 165 325 215 C320 265 280 295 250 305 C220 295 180 265 175 215 C170 165 200 135 250 120 Z" fill="url(#leafGrad)" opacity="0.95"/>
+
+  <!-- Leaf center vein -->
+  <line x1="250" y1="125" x2="250" y2="300" stroke="#0F6E56" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Leaf side veins left -->
+  <path d="M250 165 C235 160 218 163 208 170" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 195 C232 188 215 190 203 198" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 225 C233 218 218 219 208 227" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 255 C235 248 222 249 215 255" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Leaf side veins right -->
+  <path d="M250 165 C265 160 282 163 292 170" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 195 C268 188 285 190 297 198" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 225 C267 218 282 219 292 227" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 255 C265 248 278 249 285 255" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Data dots on ring -->
+  <circle cx="250" cy="64" r="5" fill="#C0DD97"/>
+  <circle cx="361" cy="99" r="4" fill="#9FE1CB" opacity="0.8"/>
+  <circle cx="398" cy="210" r="5" fill="#5DCAA5"/>
+  <circle cx="361" cy="322" r="4" fill="#9FE1CB" opacity="0.8"/>
+
+  <!-- AI spark inside leaf -->
+  <path d="M258 205 L246 232 L254 232 L242 258 L262 228 L253 228 Z" fill="#0F6E56" opacity="0.55"/>
+
+  <!-- App name -->
+  <text x="250" y="405" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="2" fill="url(#textGrad)">CARBON</text>
+  <text x="250" y="442" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="34" font-weight="300" letter-spacing="8" fill="#1D9E75">MIRROR</text>
+
+  <!-- Tagline -->
+  <text x="250" y="474" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="3" fill="#888780">TRACK · REFLECT · REDUCE</text>
+
+</svg>
