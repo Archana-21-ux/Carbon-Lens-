@@ -1,6 +1,6 @@
 # 🔍 Carbon Lens — Track · Reflect · Reduce
 
-A sleek, AI-powered carbon footprint tracker built for urban India. Log your daily habits, get a weekly **Carbon Mirror** persona, and let Claude nudge you toward lower-impact choices — all in a stunning mobile-first UI.
+A sleek, AI-powered carbon footprint tracker built for urban India. Log your daily habits, get a weekly **Carbon Mirror** persona, and let Claude nudge you toward lower-impact choices.
 
 [![React](https://img.shields.io/badge/React_18-Frontend-blue?logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Typed-blue?logo=typescript)](https://www.typescriptlang.org)
@@ -19,7 +19,6 @@ A sleek, AI-powered carbon footprint tracker built for urban India. Log your dai
 - **🤖 Claude-Powered Coaching:** Chat with an AI coach that reads your 14-day history and gives hyper-local, context-aware advice — not generic tips.
 - **🎯 Adaptive Challenges:** Streak goals auto-generated from your behavioral patterns. If cabs dominate your footprint, you'll get a Metro challenge — not a generic one.
 - **🌓 Light & Dark Mode:** Full theme switching with a rich `#190019 → #FBE4D8` purple-mauve palette.
-- **📱 Mobile-First UI:** Glassmorphism cards, micro-animations, floating tab bar, and a polished iOS-style desktop frame.
 
 ---
 
